@@ -15,6 +15,7 @@ exports.handler = async event => {
   const yesterday = new Date(today);
   yesterday.setDate(yesterday.getDate() - 1); // get date 24 hours ago
   
+  console.log('reached here 1')
   const params = {
     TableName: 'journal',
     ExpressionAttributeValues: {
@@ -23,7 +24,7 @@ exports.handler = async event => {
     },
     FilterExpression: 'createdAt between :start_date and :end_date'
   };
-  
+  console.log('reached here 2')
   try {
       
     // Query DynamoDB for journal entries in the past 24 hours

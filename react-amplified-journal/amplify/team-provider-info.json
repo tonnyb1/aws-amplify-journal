@@ -19,7 +19,10 @@
         "amplifyjournal1cea94442": {}
       },
       "function": {
-        "amplifyjournal1ae49382d": {}
+        "amplifyjournal1ae49382d": {
+          "deploymentBucketName": "amplify-amplifyjournal1-dev-104043-deployment",
+          "s3Key": "amplify-builds/amplifyjournal1ae49382d-302f646b5a4c314b554d-build.zip"
+        }
       }
     }
   }

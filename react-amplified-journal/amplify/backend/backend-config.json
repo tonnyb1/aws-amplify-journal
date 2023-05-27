@@ -61,5 +61,23 @@
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     }
+  },
+  "parameters": {
+    "AMPLIFY_function_amplifyjournal1ae49382d_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "amplifyjournal1ae49382d"
+        }
+      ]
+    },
+    "AMPLIFY_function_amplifyjournal1ae49382d_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "amplifyjournal1ae49382d"
+        }
+      ]
+    }
   }
 }
